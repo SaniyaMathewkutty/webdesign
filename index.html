@@ -1,171 +1,47 @@
-<!DOCTYPE HTML>
-<html lang="en">
+<!DOCTYPE html>
+<!-- 
+    Author:             Saniya Mathewkutty
+	Date Created:		30/03/2022
+	Page Description:	Week 9 - Maps. 
+
+    THIS IS A COLLEGE PROJECT!
+-->
+
+<html lang="en">                    <!-- Declare the primary language for each webpage-->
 <head>
-    <title>Jawaharlal Jewellery</t m itle>
-    <meta charset="utf-8">
-    <meta name="description" content="Jewellery store website">
-	<meta name="keywords" content="seller, jewellery, handmade, handcrafted, indian, accesories, artisan, fashion">
+    <title>Holiday Home</title>             <!--This will be shown in the tab title-->
+	<meta charset="utf-8" />        <!--8-bit character encoding capable of encoding all possible characters-->
+	<meta name="description" content="Holiday Club, Holiday in the Sun">
+	<meta name="keywords" content="holiday, club, quiet beach to relax to, sun holiday, holiday in the sun">
 	
-	<link rel="stylesheet" type="text/css" href="styles/style.css" >
+	<link rel="stylesheet" type="text/css" href="styles/style.css"> <!--Link to external CSS formatting file-->
 </head>
+
 <body>
-	<a id="top"></a>                <!-- <a> is anchor link, this particular anchor links the top of the webpage via an ID--> 
-	<header>									
-		<nav>
-			<img class="logo" src="images\logo.png" alt="logo">
-			<h1>The Ancient Artisan</h1>
-			<ul class="topNav">
-				<li id = "active"> <a href="index.html">HOME</a></li>             
-				<li> <a href="crafts.html">CRAFTS</a></li>   
-				<li> <a href="history.html">HISTORY</a></li>
-				<li> <a href="about.html">ABOUT</a></li>
-			</ul><br class="clear"/>
-		</nav>
-		
-		
-	</header>
-   <a href="#bottom">Go To Bottom</a>
-	
-	<main id="Maincontent">						
-		<section class="section1">								
-			<article>						   
-			 <h2>The tales behind the work of an artisan</h2>
-			 <h3><i>August 6, 2022| (0) Comments</i></h3>
-		 
-				<img src="images/door.jpg" width="277" height="266" alt="Picture of a door to a prayer temple" />
+    <a id="top"></a>                <!-- <a> is anchor link, this particular anchor links the top of the webpage via an ID--> 
+    
+    <header>
+        <nav>
+            
+            <h1>Holiday Club</h1>
+            <ul>
+                <li class="selected">Home</li>
+                <a href="sunholiday.html"><li>Sun Holidays</li></a>
+                <a href="contact.html"><li>Contact Us</li></a>
+            </ul>
+        </nav>
+    </header>
 
-				<br class="clear bottomClear" />
-				<h2>Where it all begins...</h2>
-				<p> On this site, you can find the lore behind some of my most precious pieces of jewellery craftmanship. All lovingly <u>handcrafted</u> and inspired by the historic hinderlands of the deep Indian south &#127470;&#127475; <br/>
-					<b>To understand the significance of folklore, one must have an understanding of important places and them to present time.  </b>
-					<br>
-					Much of Kerala's cultural roots lie in its classical capital city.
-					Thiruvananthapuram (or Trivandrum) is the capital of the southern Indian state of Kerala. It's distinguished by 
-					its British colonial architecture and many art galleries. It’s also home to Kuthira Malika (or Puthen Malika) Palace, 
-					adorned with carved horses and displaying collections related to the Travancore royal family, whose regional capital 
-					was here from the 18th to 20th centuries. <a href="https://en.wikipedia.org/wiki/Thiruvananthapuram">Read more...</a>
-				</p>
-		
-				<p class="quoteBar">In all honesty, it is the last place you should visit if you ever decide to travel around Kerala. Maybe it's because I'm a village girl, but cities just don't have a lot to offer in comparison to the rural landscapes. </p>
-				<p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
-			</article>
-		</section>
-	   <aside class="sideBar">
-			<h3>Lore</h3>
-		  <ul>
-			   <li><a href="#" >Who is Taanvi and what does she have to do with pieces of metal?</a></li>
-			   <li><a href="#">Why is Trivandrum at the heart of all this?</a></li>
-			   <li><a href="#">Where do we start with the perilous history?</a></li>
-			   <li><a href="#">How is it all connected?</a></li>
-			   <li><a href="#">There are many variations of the folktale or legend in modern vernacular spread. </a></li>
-			   <li><a href="#">Trivandrum is a city in my home state of Kerala in India. </a></li>
-			   <li><a href="#">If you are determined to read about its history</a></li>
-			   <li><a href="#">Strap In!</a></li>
-			   <li><a href="#">We have a lot of ground to cover here</a></li>
-		   </ul>
-		  <img src="images/sideBarListBoxBottom.png" alt="" width="240" height="10" />
-	   
-		 
-		 <h3>Artifacts</h3>
-		 <ul class="sideBarItem">
-			<li><a href="#">Category One</a></li>
-			<li><a href="#">There are many</a></li>
-			<li><a href="#">Lorem Ipsum available</a></li>
-			<li><a href="#">If you are going</a></li>
-			<li><a href="#">All the Lorem Ipsum</a></li>
-			<li><a href="#">200 Latin words</a></li>
-			<li><a href="#">It uses a dictionary</a></li>
-			<li><a href="#">Lorem ipsum dolor</a></li>
-			<li><a href="#">Latin professor at</a></li>
-		   </ul>
-		
-	   <br class="clear" />
-   
-	  
-		<section class="section2">	<!-- +++ Add a class here to identify this section in the CSS -->						<!-- <div class="midBox1"> -->
-			<img src="images/c2_i6.png" width="303" height="420" alt="">
-			<!-- <div class="midBox1Top"> -->
-			<h3>Taanvi is another name for the deity goddess Durga.</h3>
-   
-			<p>Durga (Sanskrit: दुर्गा, IAST: Durgā) is a major deity in Hinduism. She is worshipped as a principal aspect of the mother goddess Devi and is one of the most 
-				popular and widely revered among Indian divinities. She is associated with protection, strength, motherhood, destruction and wars.<br> 
-				Her legend centers around combating evil and demonic forces that threaten peace, prosperity, and Dharma (the power of good over evil). 
-			   <br> Durga is believed to unleash her divine wrath against the wicked for the liberation of the oppressed, and entails destruction to empower creation. 
-			</p>
-   
-			<!-- Twitter logo, edit to include updated logo plus actual href --><a href="#"><img src="images/c2_i2.png" width="133" height="40" alt="" /></a>
-			<!-- Vimeo logo --><a href="#"><img src="images/c2_i3.png" width="84" height="40" alt=""  /></a>
-			<!-- Flickr logo --><a href="#"><img src="images/c2_i4.png" width="93" height="40" alt=""  /></a>
-			<!-- Facebook logo--><a href="#"><img src="images/c2_i5.png" width="101" height="38" alt=""  /></a>
-			<!-- <div class="midBox1Bottom"> -->
-			 <h4>The history is only part of the inspiration.</h4>
-   
-			 <ul>
-			   <!-- put an id to the li's in here... --> <li><a href="#" >Lorem Ipsum is simply dummy text of the printing</a></li>
-			   <li><a href="#" >It is a long established fact that a reader</a></li>
-			   <li><a href="#" >There are many variations of passages of Lorem Ipsum</a></li>
-			   <li><a href="#" >Contrary to popular belief, Lorem Ipsum is not simply random text</a></li>
-			 </ul>
-			
-			<br class="clear" />
-	   </section>
-		 
-	<article class="article1">
-		 <section class="section3">
-			<h2>Generational impact of the influence in folklore</h2>
-			<h3>Younger generations do not care much for the tales of prehistory,  <br /> especially those of religious literature.</h3>
-			<p>In my artisanship, what I'm trying to emulate is a feel for the culture and traditions of the olden times.</p>
-		 </section>
-		 <img src="images/c3_i7.png" width="460" height="237" alt="" />
-	</article>
-	</main>
+    <a href="#bottom">Go to bottom</a>
 
-	  
-	<footer id="footer">
-		   <section class="footerForm">
-			   <h3> Please enter the following information:</h3>
-			   <form action="https://foo.com" method="put">
-				   <label for="first_name">First name:<span class="required">*</span></label>
-				   <input type="text" name="first_name" id="first_name" autofocus required> <br>   <!-- <br> means line break-->
-   
-				   <label for="last_name">Last name:<span class="required">*</span></label>
-				   <input type="text" name="last_name" id="last_name" autofocus required> <br>
-   
-				   <label for="email">Email:<span class="required">*</span></label>
-				   <input type="email" name="email" id="email"  required placeholder="johndoe@example.com"><br>   <!-- The "required placeholder" will show the text that follows it inside the text field, grayed out"-->
-				   
-				   <label for="gender">Gender: </label>
-				   <input type="radio" name="gender" id="gender_male" value="male">Male
-				   <input type="radio" name="gender" id="gender_female" value="female">Female
-				   <input type="radio" name="gender" id="gender_other" value="other" checked>Other <br>
-   
-				   <label for ="internet"> Heard of us by: </label>
-				   <fieldset>
-					   <input type="checkbox" name="internet" id="internet" value="internet" checked> Internet <br>
-					   <input type="checkbox" name="paper" class="margin1" id="hear" value="paper"> Newspaper <br>
-					   <input type="checkbox" name="friend" class="margin1" id="hear"  value="friend"> Friend <br>
-					   <input type="checkbox" name="Add" class="margin1" id="hear" value="add"> Others <br>
-				   </fieldset><br>
-   
-				   <label for="message">Query  :  </label>
-				   <textarea cols="40" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters" data-maxlength="200"></textarea> <br>
-				   <input type="submit" name="submit" id="button" value="Submit">
-				   <input type="reset" name="reset" id="reset">
-			   </form>
-		   </section>
-   
-		   <p style="margin-left: 138px"> <span class="required">*</span> <em> indicates a required field</em></p>
-   
-		 
-		   <p>All the Lorem Ipsum generators on the<br/> Internet tend to repeat predefined chunks as<br /> necessary, making this the first true generator<br /> on the Internet. It uses a dictionary of over<br /> 200 Latin words, combined with a handful of<br /> model sentence structures, to generate Lorem<br /> Ipsum which looks reasonable. The generated<br /> Lorem Ipsum is therefore always free from<br /> repetition, injected humour, or<br /> non-characteristic words etc.</p>
-		   <br class="clear" />
-		   
-	  
-		   <section id="footerContainer">
-			   <p>
-			   		<label>Copyright 2022. All Rights Reserved.</label>
-			   </p>
-		   </section>
-	  </footer>
-</body>
-</html>
+    <main>
+        <section>
+            <article>
+                <h2></h2>
+            </article>
+        </section>
+
+
+    </main>
+
+    <!-- 18:15 on video https://itsligo.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fcbbde10-a8af-4f49-beb4-ae5f00b21f97-->
